@@ -11,4 +11,16 @@ public class Interaction : MonoBehaviour
     {
         Debug.Log("Tool Tips: " + toolTips);
     }
+
+    public virtual void Interacted()
+    {
+        if (isInteracted)
+        {
+            isInteracted = false;
+        }
+        else
+        {
+            isInteracted= true;
+        }
+    }
 }

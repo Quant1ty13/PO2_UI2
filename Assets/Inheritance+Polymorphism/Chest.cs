@@ -5,17 +5,16 @@ using UnityEngine;
 
 public class Chest : Interaction
 {
-    public void Interacted()
+    public override void Interacted()
     {
+        base.Interacted();
         if (isInteracted)
         {
             //play close animation
-            isInteracted = false;
         }
         else
         {
             //play open animation
-            isInteracted = true;
             DropLoot();
         }
 

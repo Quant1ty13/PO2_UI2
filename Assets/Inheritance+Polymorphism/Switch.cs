@@ -4,20 +4,19 @@ using UnityEngine;
 
 public class Switch : Interaction
 {
-    public void Interacted()
+    public override void Interacted()
     {
+        base.Interacted();
         if (isInteracted)
         {
             //Move a platform
             //Change toolTips details
-            isInteracted = false;
             DisplayToolTips();
         }
         else
         {
             //Move a platform
             //Change toolTips details
-            isInteracted = true;
             DisplayToolTips();
         }
     }
