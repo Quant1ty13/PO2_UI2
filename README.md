@@ -1,2 +1,2 @@
 # PO2_UI2
- UI Lesson using OOP (Encapsulation)
+ UI Lesson using OOP (Object-oriented Programming)
