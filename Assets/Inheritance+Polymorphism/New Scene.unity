@@ -330,7 +330,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   toolTips: press E to press E
-  isInteracted: 0
+  isInteracted: 1
 --- !u!4 &1145523190
 Transform:
   m_ObjectHideFlags: 0
